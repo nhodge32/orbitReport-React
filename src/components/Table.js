@@ -1,3 +1,5 @@
+import "./styling.css";
+
 const Table = ({ sat }) => {
   const satInfo = sat.map((data, id) => {
     //when I had map(id, data) it did not work at all...why?
